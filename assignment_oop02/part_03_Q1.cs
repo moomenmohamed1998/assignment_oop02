@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -48,9 +49,15 @@ namespace assignment_oop02
             Day = day;
             Month = month;
             Year = year;
-        } 
+        }
 
 
         #endregion
+
+        #region Q 3
+
+
+        #endregion
+
     }
 }

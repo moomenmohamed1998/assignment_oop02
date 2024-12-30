@@ -32,10 +32,10 @@ namespace assignment_oop02
 
             #region PhoneBook
 
-            phonebook Note = new phonebook(3);
-            Note.Addpersone(0, "Ahmed", 123);
-            Note.Addpersone(1, "Moamen", 546);
-            Note.Addpersone(2, "Marwan", 333);
+            //phonebook Note = new phonebook(3);
+            //Note.Addpersone(0, "Ahmed", 123);
+            //Note.Addpersone(1, "Moamen", 546);
+            //Note.Addpersone(2, "Marwan", 333);
 
 
             //int Number = Note.GetNumber("Moamen");
@@ -118,6 +118,7 @@ namespace assignment_oop02
 
 
             #region Part 3
+
             #region 1-Employee is identified by an ID, Name, security level, salary, hire date and Gender.
             //Console.WriteLine("Enter Employee Details:");
             //Console.Write("ID: ");
@@ -143,28 +144,38 @@ namespace assignment_oop02
 
             #region 2-Develop a Class to represent the Hiring Date Data:consisting of fields to hold the day, month and Years.
 
-            Console.WriteLine("Enter Hiring Date:");
+            //Console.WriteLine("Enter Hiring Date:");
 
-            Console.Write("Day: ");
-            int day = int.Parse(Console.ReadLine());
+            //Console.Write("Day: ");
+            //int day = int.Parse(Console.ReadLine());
 
-            Console.Write("Month: ");
-            int month = int.Parse(Console.ReadLine());
+            //Console.Write("Month: ");
+            //int month = int.Parse(Console.ReadLine());
 
-            Console.Write("Year: ");
-            int year = int.Parse(Console.ReadLine());
+            //Console.Write("Year: ");
+            //int year = int.Parse(Console.ReadLine());
 
+
+
+
+            #endregion
 
             
 
-            #endregion
-            #endregion
-            #endregion
 
-
-
-
-        }
+        #endregion
+           #endregion
     }
-}
+}}
+
+    
+    
+
+
+
+
+
+
+
+
 

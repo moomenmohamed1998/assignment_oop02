@@ -1,4 +1,5 @@
 ﻿using assignment_oop02.Encapsulition;
+using static assignment_oop02.Assignment;
 
 namespace assignment_oop02
 {
@@ -56,10 +57,34 @@ namespace assignment_oop02
 
             #region Car
 
-            Car c01 = new(10);
+            //Car c01 = new(10);
 
-            Console.WriteLine(c01);
+            //Console.WriteLine(c01);
 
+
+            #endregion
+
+            #region Assibnment_oop_02
+
+            #region part 2
+
+            #region 1-Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data. Then, write a C# program to display the details of all the persons in the array.
+            Person[] people = new Person[3];
+
+            people[0] = new Person("Moamen", 125);
+            people[1] = new Person("Ali", 130);
+            people[2] = new Person("Mohamed", 122);
+
+            foreach (Person person in people)
+            {
+                Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+            }
+
+
+            #endregion
+
+
+            #endregion
 
             #endregion
 

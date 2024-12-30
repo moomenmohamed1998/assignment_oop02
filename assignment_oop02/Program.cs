@@ -28,6 +28,8 @@ namespace assignment_oop02
             //Console.WriteLine(employee.Salary);
             //Console.WriteLine(employee.Deduction); 
             #endregion
+            
+            #region PhoneBook
 
             phonebook Note = new phonebook(3);
             Note.Addpersone(0, "Ahmed", 123);
@@ -42,14 +44,15 @@ namespace assignment_oop02
             //Note["Moamen"] = 999;
             //Console.WriteLine(Note["Moamen"]);
 
-            for (int i = 0; i < Note._Size; i++)
-            {
+            //for (int i = 0; i < Note._Size; i++)
+            //{
 
-                Console.WriteLine(Note[i]);
-            }
+            //    Console.WriteLine(Note[i]);
+            //}
 
-            string Name = "Moamen";
-            Console.WriteLine(Name[0]);
+            //string Name = "Moamen";
+            //Console.WriteLine(Name[0]) 
+            #endregion;
 
 
 

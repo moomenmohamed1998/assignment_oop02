@@ -54,6 +54,15 @@ namespace assignment_oop02
             //Console.WriteLine(Name[0]) 
             #endregion;
 
+            #region Car
+
+            Car c01 = new(10);
+
+            Console.WriteLine(c01);
+
+
+            #endregion
+
 
 
         }

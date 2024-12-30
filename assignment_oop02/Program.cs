@@ -29,7 +29,7 @@ namespace assignment_oop02
             //Console.WriteLine(employee.Salary);
             //Console.WriteLine(employee.Deduction); 
             #endregion
-            
+
             #region PhoneBook
 
             phonebook Note = new phonebook(3);
@@ -69,27 +69,56 @@ namespace assignment_oop02
             #region part 2
 
             #region 1-Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data. Then, write a C# program to display the details of all the persons in the array.
-            Person[] people = new Person[3];
+            //Person[] people = new Person[3];
 
-            people[0] = new Person("Moamen", 125);
-            people[1] = new Person("Ali", 130);
-            people[2] = new Person("Mohamed", 122);
+            //people[0] = new Person("Moamen", 125);
+            //people[1] = new Person("Ali", 130);
+            //people[2] = new Person("Mohamed", 122);
 
-            foreach (Person person in people)
-            {
-                Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
-            }
-
-
-            #endregion
+            //foreach (Person person in people)
+            //{
+            //    Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+            //}
 
 
             #endregion
 
-            #endregion
+            #region 2-Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+
+        //    Person[] people = new Person[3];
+
+        //    for (int i = 0; i < people.Length; i++)
+        //    {
+        //        Console.WriteLine($"Enter deta for person {i + 1}:");
+        //        Console.Write("Name: ");
+        //        string name = Console.ReadLine();
+
+        //        Console.Write("Age: ");
+        //        int age = int.Parse(Console.ReadLine());
+
+        //        people[i] = new Person(name, age);
+        //    }
+
+        //    Person old = people[0];
+        //    for (int i = 1; i < people.Length; i++)
+        //    {
+        //        if (people[i].Age > old.Age)
+        //        {
+        //            old = people[i];
+        //        }
+        //    }
+
+        //    Console.WriteLine($"\nThe olde person is {old.Name} age  {old.Age}.");
+        //}
+        #endregion
+
+
+        #endregion
+
+        #endregion
 
 
 
-        }
+    
     }
 }

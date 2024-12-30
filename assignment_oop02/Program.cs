@@ -119,26 +119,44 @@ namespace assignment_oop02
 
             #region Part 3
             #region 1-Employee is identified by an ID, Name, security level, salary, hire date and Gender.
-            Console.WriteLine("Enter Employee Details:");
-            Console.Write("ID: ");
-            int id = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Employee Details:");
+            //Console.Write("ID: ");
+            //int id = int.Parse(Console.ReadLine());
 
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
+            //Console.Write("Name: ");
+            //string name = Console.ReadLine();
 
-            Console.Write("Security Level: ");
-            int securityLevel = int.Parse(Console.ReadLine());
+            //Console.Write("Security Level: ");
+            //int securityLevel = int.Parse(Console.ReadLine());
 
-            Console.Write("Salary: ");
-            decimal salary = decimal.Parse(Console.ReadLine());
+            //Console.Write("Salary: ");
+            //decimal salary = decimal.Parse(Console.ReadLine());
 
-            Console.Write("Hire Date (yyyy-mm-dd): ");
-            DateTime hireDate = DateTime.Parse(Console.ReadLine());
+            //Console.Write("Hire Date (yyyy-mm-dd): ");
+            //DateTime hireDate = DateTime.Parse(Console.ReadLine());
 
-            Console.Write("Gender: ");
-            string gender = Console.ReadLine();
+            //Console.Write("Gender: ");
+            //string gender = Console.ReadLine();
 
-          
+
+            #endregion
+
+            #region 2-Develop a Class to represent the Hiring Date Data:consisting of fields to hold the day, month and Years.
+
+            Console.WriteLine("Enter Hiring Date:");
+
+            Console.Write("Day: ");
+            int day = int.Parse(Console.ReadLine());
+
+            Console.Write("Month: ");
+            int month = int.Parse(Console.ReadLine());
+
+            Console.Write("Year: ");
+            int year = int.Parse(Console.ReadLine());
+
+
+            
+
             #endregion
             #endregion
             #endregion

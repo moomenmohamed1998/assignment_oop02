@@ -85,40 +85,68 @@ namespace assignment_oop02
 
             #region 2-Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
 
-        //    Person[] people = new Person[3];
+            //    Person[] people = new Person[3];
 
-        //    for (int i = 0; i < people.Length; i++)
-        //    {
-        //        Console.WriteLine($"Enter deta for person {i + 1}:");
-        //        Console.Write("Name: ");
-        //        string name = Console.ReadLine();
+            //    for (int i = 0; i < people.Length; i++)
+            //    {
+            //        Console.WriteLine($"Enter deta for person {i + 1}:");
+            //        Console.Write("Name: ");
+            //        string name = Console.ReadLine();
 
-        //        Console.Write("Age: ");
-        //        int age = int.Parse(Console.ReadLine());
+            //        Console.Write("Age: ");
+            //        int age = int.Parse(Console.ReadLine());
 
-        //        people[i] = new Person(name, age);
-        //    }
+            //        people[i] = new Person(name, age);
+            //    }
 
-        //    Person old = people[0];
-        //    for (int i = 1; i < people.Length; i++)
-        //    {
-        //        if (people[i].Age > old.Age)
-        //        {
-        //            old = people[i];
-        //        }
-        //    }
+            //    Person old = people[0];
+            //    for (int i = 1; i < people.Length; i++)
+            //    {
+            //        if (people[i].Age > old.Age)
+            //        {
+            //            old = people[i];
+            //        }
+            //    }
 
-        //    Console.WriteLine($"\nThe olde person is {old.Name} age  {old.Age}.");
-        //}
-        #endregion
+            //    Console.WriteLine($"\nThe olde person is {old.Name} age  {old.Age}.");
+            //}
+            #endregion
 
 
-        #endregion
-
-        #endregion
+            #endregion
 
 
 
-    
+            #region Part 3
+            #region 1-Employee is identified by an ID, Name, security level, salary, hire date and Gender.
+            Console.WriteLine("Enter Employee Details:");
+            Console.Write("ID: ");
+            int id = int.Parse(Console.ReadLine());
+
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Security Level: ");
+            int securityLevel = int.Parse(Console.ReadLine());
+
+            Console.Write("Salary: ");
+            decimal salary = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Hire Date (yyyy-mm-dd): ");
+            DateTime hireDate = DateTime.Parse(Console.ReadLine());
+
+            Console.Write("Gender: ");
+            string gender = Console.ReadLine();
+
+          
+            #endregion
+            #endregion
+            #endregion
+
+
+
+
+        }
     }
 }
+
